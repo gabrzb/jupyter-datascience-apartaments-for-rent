@@ -10,7 +10,7 @@
 
 **Sistema Inteligente de Detecção de Fraudes em Anúncios de Apartamentos**
 
-[📊 Dataset](#-dataset) • [🚀 Começando](#-começando) • [🎯 Resultados](#-resultados) • [👥 Equipe](#-equipe)
+[📊 Dataset](#-dataset) • [🚀 Setup](#-setup) • [🎯 Resultados](#-resultados) • [👥 Equipe](#-equipe)
 
 </div>
 
@@ -24,11 +24,11 @@ Com o crescimento exponencial do mercado imobiliário online, fraudes em anúnci
 
 ### 🎯 Objetivos
 
-- ✅ Desenvolver modelo preditivo para detecção de fraudes
-- ✅ Comparar performance de múltiplos algoritmos de ML
-- ✅ Criar sistema interativo para classificação em tempo real
-- ✅ Fornecer análise estatística completa dos dados
-- ✅ Visualizar insights através de gráficos profissionais
+- Desenvolver modelo preditivo para detecção de fraudes
+- Comparar performance de múltiplos algoritmos de ML
+- Criar sistema interativo para classificação em tempo real
+- Fornecer análise estatística completa dos dados
+- Visualizar insights através de gráficos profissionais
 
 ---
 
@@ -42,10 +42,10 @@ Com o crescimento exponencial do mercado imobiliário online, fraudes em anúnci
 
 ### 🤖 Machine Learning
 - **4 Algoritmos Implementados:**
-  - 📈 Logistic Regression
-  - 🌳 Decision Tree
-  - 🌲 Random Forest
-  - 🎯 Support Vector Machine (SVM)
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - Support Vector Machine (SVM)
 - Comparação de métricas (Accuracy, Precision, Recall, F1-Score)
 - Matriz de confusão e relatório de classificação
 - Seleção automática do melhor modelo
@@ -76,23 +76,23 @@ Com o crescimento exponencial do mercado imobiliário online, fraudes em anúnci
 **Fonte:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/555/apartment+for+rent+classified)
 
 ### Características do Dataset:
-- 📦 **100.000 registros** de anúncios reais
-- 🔢 **22 features** (numéricas e categóricas)
-- 🎯 **Target binário** (0 = Legítimo, 1 = Fraudulento)
+- **100.000 registros** de anúncios reais
+- **22 features** (numéricas e categóricas)
+- **Target binário** (0 = Legítimo, 1 = Fraudulento)
 
-### Features Principais:
+### Características Principais:
 ```
-📍 Localização:    address, cityname, state, latitude, longitude
-🏡 Propriedade:    bedrooms, bathrooms, square_feet
-💰 Financeiro:     price, currency, fee
-📸 Mídia:          has_photo, amenities
-🐾 Políticas:      pets_allowed
-📅 Temporal:       time, source
+- Localização:    address, cityname, state, latitude, longitude
+- Propriedade:    bedrooms, bathrooms, square_feet
+- Financeiro:     price, currency, fee
+- Mídia:          has_photo, amenities
+- Políticas:      pets_allowed
+- Temporal:       time, source
 ```
 
 ---
 
-## 🚀 Começando
+## 🚀 Setup
 
 ### Pré-requisitos
 
@@ -143,13 +143,12 @@ jupyter notebook Trabalho_Apartment_for_Rent.ipynb
 ```
 apartment-fraud-detection/
 │
-├── 📓 Trabalho_Apartment_for_Rent.ipynb    # Notebook principal
-├── 📊 apartments_for_rent_classified_100K.csv.xls  # Dataset completo
-├── 📊 apartments_for_rent_classified_10K.csv.xls   # Dataset reduzido
-├── 📋 requirements.txt                      # Dependências Python
-├── 📖 README.md                             # Este arquivo
-├── 🚫 .gitignore                            # Arquivos ignorados
-└── 📁 .venv/                                # Ambiente virtual
+├── Trabalho_Apartment_for_Rent.ipynb    # Notebook principal
+├── apartments_for_rent_classified_100K.csv.xls  # Dataset completo
+├── requirements.txt                      # Dependências Python
+├── README.md                             # Este arquivo
+├── .gitignore                            # Arquivos ignorados
+└── .venv/                                # Ambiente virtual
 ```
 
 ---
@@ -160,7 +159,7 @@ apartment-fraud-detection/
 
 | Modelo | Accuracy | Precision | Recall | F1-Score |
 |--------|----------|-----------|--------|----------|
-| 🏆 **Random Forest** | **95.2%** | **94.8%** | **95.5%** | **95.1%** |
+| **Random Forest** | **95.2%** | **94.8%** | **95.5%** | **95.1%** |
 | Logistic Regression | 89.3% | 88.7% | 89.8% | 89.2% |
 | Decision Tree | 91.5% | 90.9% | 91.2% | 91.0% |
 | SVM | 92.7% | 92.1% | 92.9% | 92.5% |
@@ -171,12 +170,12 @@ apartment-fraud-detection/
 
 O projeto inclui visualizações profissionais:
 
-- 📊 **Histogramas** - Distribuição de variáveis numéricas
-- 📦 **Boxplots** - Identificação de outliers
-- 🔵 **Scatterplots** - Relações entre variáveis
-- 🔥 **Heatmap** - Matriz de correlação
-- 📉 **Gráficos Comparativos** - Performance dos modelos
-- 🎯 **Matriz de Confusão** - Análise de erros
+- **Histogramas** - Distribuição de variáveis numéricas
+- **Boxplots** - Identificação de outliers
+- **Scatterplots** - Relações entre variáveis
+- **Heatmap** - Matriz de correlação
+- **Gráficos Comparativos** - Performance dos modelos
+- **Matriz de Confusão** - Análise de erros
 
 ---
 
@@ -184,42 +183,42 @@ O projeto inclui visualizações profissionais:
 
 O notebook está organizado em 8 seções principais:
 
-1. **🎓 Introdução**
+1. **Introdução**
    - Contexto e objetivos
    - Definição do problema
    - Relevância do tema
 
-2. **📊 Carregamento e Entendimento**
+2. **Carregamento e Entendimento**
    - Importação dos dados
    - Análise exploratória inicial
    - Descrição das features
 
-3. **📈 Análise Estatística**
+3. **Análise Estatística**
    - Estatísticas descritivas completas
    - Visualizações detalhadas
    - Diagnóstico da qualidade dos dados
 
-4. **🔧 Preparação dos Dados**
+4. **Preparação dos Dados**
    - Tratamento de valores ausentes
    - Normalização/Padronização
    - Split treino/teste
 
-5. **🤖 Modelagem**
+5. **Modelagem**
    - Treinamento de múltiplos modelos
    - Avaliação e comparação
    - Seleção do melhor modelo
 
-6. **💻 Aplicação Prática**
+6. **Aplicação Prática**
    - Sistema interativo de classificação
    - Testes com novos dados
    - Exemplos de uso
 
-7. **📝 Conclusão**
+7. **Conclusão**
    - Principais descobertas
    - Limitações identificadas
    - Melhorias futuras
 
-8. **🎥 Vídeo Explicativo**
+8. **Vídeo Explicativo**
    - Link para apresentação
 
 ---
@@ -229,25 +228,25 @@ O notebook está organizado em 8 seções principais:
 ### Pipeline de ML
 
 ```
-📥 Dados Brutos
+ Dados Brutos
     ↓
-🔍 Análise Exploratória
+ Análise Exploratória
     ↓
-🧹 Limpeza e Tratamento
+ Limpeza e Tratamento
     ↓
-⚙️ Feature Engineering
+ Feature Engineering
     ↓
-📊 Normalização
+ Normalização
     ↓
-✂️ Train/Test Split
+ Train/Test Split
     ↓
-🤖 Treinamento de Modelos
+ Treinamento de Modelos
     ↓
-📈 Avaliação e Comparação
+ Avaliação e Comparação
     ↓
-🏆 Seleção do Melhor Modelo
+ Seleção do Melhor Modelo
     ↓
-💾 Deploy e Aplicação
+ Deploy e Aplicação
 ```
 
 ---
@@ -270,49 +269,16 @@ O notebook está organizado em 8 seções principais:
 
 ---
 
-## 🎓 Aprendizados
+## 🎓 Competências
 
 Este projeto demonstra:
 
-- ✅ Pipeline completo de Ciência de Dados
-- ✅ Comparação sistemática de algoritmos de ML
-- ✅ Importância da análise exploratória
-- ✅ Tratamento adequado de dados reais
-- ✅ Avaliação criteriosa de modelos
-- ✅ Desenvolvimento de aplicação prática
-
----
-
-## 🚀 Melhorias Futuras
-
-### 📋 Roadmap de Desenvolvimento:
-
-- [ ] **Feature Engineering Avançado**
-  - Análise de texto (NLP) para título e descrição
-  - Features geoespaciais
-  - Variáveis temporais
-
-- [ ] **Modelos Avançados**
-  - XGBoost, LightGBM, CatBoost
-  - Deep Learning (Redes Neurais)
-  - Ensemble methods customizados
-
-- [ ] **Otimização**
-  - Grid Search / Random Search
-  - Validação cruzada estratificada
-  - AutoML
-
-- [ ] **Deploy**
-  - API REST (FastAPI/Flask)
-  - Interface web (Streamlit)
-  - Containerização (Docker)
-  - Cloud deployment (AWS/GCP/Azure)
-
-- [ ] **Monitoramento**
-  - Model drift detection
-  - Performance tracking
-  - A/B testing
-  - Retreinamento automático
+- Pipeline completo de Ciência de Dados
+- Comparação sistemática de algoritmos de ML
+- Importância da análise exploratória
+- Tratamento adequado de dados reais
+- Avaliação criteriosa de modelos
+- Desenvolvimento de aplicação prática
 
 ---
 
@@ -320,40 +286,19 @@ Este projeto demonstra:
 
 Este projeto foi desenvolvido por:
 
-1. **Maria Silva Santos** - Data Scientist
-2. **João Pedro Oliveira** - ML Engineer
-3. **Ana Carolina Souza** - Data Analyst
-4. **Carlos Eduardo Lima** - Python Developer
-5. **Fernanda Rodrigues Costa** - Business Analyst
-6. **Pedro Henrique Almeida** - Data Engineer
-7. **Juliana Martins Ferreira** - Project Manager
+1. Gabriel Cunha de Araujo (2204029)
+2. Gabriel Zaniqueli (2205156)
+3. Kelvin Pimenta Dias (2205385)
+4. Nicolas Rossetto Samblas(2305916)
+5. Renan Martins Rossi (2304805)
+6. Lucas Marujo Amadeu (2108723)
+7. Lucas Ferreira Balduino (2201210)
 
 ---
 
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. 🍴 Fork o projeto
-2. 🌿 Criar uma branch (`git checkout -b feature/MinhaFeature`)
-3. 💾 Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. 📤 Push para a branch (`git push origin feature/MinhaFeature`)
-5. 🔃 Abrir um Pull Request
-
----
-
-## 🙏 Agradecimentos
-
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/) - Fornecimento do dataset
-- [Scikit-learn Community](https://scikit-learn.org/) - Biblioteca de ML
-- [Pandas Development Team](https://pandas.pydata.org/) - Manipulação de dados
-- Todos os contribuidores e revisores do projeto
 
 ---
 
@@ -364,14 +309,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 ![GitHub watchers](https://img.shields.io/github/watchers/lucasmarujo/jupyter-datascience-apartaments-for-rent)
 
 ---
-
-<div align="center">
-
-**⭐ Se este projeto foi útil, considere dar uma estrela!**
-
-Made with ❤️ by Apartment Fraud Detection Team
-
-[⬆ Voltar ao topo](#-apartment-for-rent-fraud-detection)
-
-</div>
-
